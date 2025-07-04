@@ -1,4 +1,4 @@
-🔧 Supabase Detector
+# 🔧 Supabase Detector
 A Chrome extension that automatically detects if a website uses Supabase and provides visual indicators.
 
 [![Dreambase.ai - Supabase detected](assets/dreambase-ai.png)](https://dreambase.ai)
@@ -6,7 +6,7 @@ A Chrome extension that automatically detects if a website uses Supabase and pro
 
 Instantly identify websites powered by Supabase with real-time detection and detailed analysis.
 
-✨ Features
+## ✨ Features
 
 🔍 Comprehensive Detection - Scans for URLs, JavaScript patterns, API calls, and environment variables
 🎨 Visual Indicators - Icon changes from gray to green with checkmark badge
@@ -15,7 +15,8 @@ Instantly identify websites powered by Supabase with real-time detection and det
 🔄 Auto-Updates - Monitors page changes and updates detection status
 🚀 Zero Configuration - Works immediately after installation
 
-🚀 Quick Install
+## 🚀 Quick Install
+
 Method 1: Download Release (Recommended)
 
 Download the latest release
@@ -28,50 +29,53 @@ Done! The extension appears in your toolbar
 Method 2: Clone Repository
 bashgit clone https://github.com/[username]/supabase-detector-extension.git
 cd supabase-detector-extension/extension
-# Then load the 'extension' folder in Chrome
+
+Then load the 'extension' folder in Chrome
 📋 Detailed Installation Guide
 🧪 Test the Extension
+
 After installation, visit these sites to verify it's working:
 
-✅ supabase.com - Icon should turn green with checkmark
+✅ dreambase.ai - Icon should turn green with checkmark
 ✅ goodbrands.fyi - Example site using Supabase
 ❌ google.com - Icon should stay gray
 
-🔍 What It Detects
+## 🔍 What It Detects
 The extension uses multiple detection methods to identify Supabase usage:
-🌐 URL Patterns
+
+### 🌐 URL Patterns
 
 *.supabase.co and *.supabase.com domains
 Supabase API endpoints (/rest/v1/, /auth/v1/, /realtime/v1/)
 Project-specific Supabase URLs
 
-💻 JavaScript Analysis
+### 💻 JavaScript Analysis
 
 Global variables: supabaseClient, createClient, supabase
 Import statements: from '@supabase/supabase-js'
 Environment variables: NEXT_PUBLIC_SUPABASE_*, REACT_APP_SUPABASE_*
 Bundled/minified Supabase code patterns
 
-🔗 Network Monitoring
+### 🔗 Network Monitoring
 
 Real-time fetch() and XMLHttpRequest interception
 Performance API analysis for Supabase requests
 Dynamic content loading detection
 
-💾 Storage Detection
+### 💾 Storage Detection
 
 localStorage keys containing "supabase" or "sb-"
 sessionStorage for authentication tokens
 Supabase client configuration data
 
-📱 How It Works
+## 📱 How It Works
 
 Page Load - Extension automatically scans when you visit any website
 Icon Changes - Gray (no Supabase) → Green with ✓ (Supabase detected)
 Click for Details - Click the icon to see what was found and where
 Real-time Updates - Continues monitoring for dynamically loaded content
 
-📁 Project Structure
+## 📁 Project Structure
 extension/
 ├── manifest.json       # Extension configuration (Manifest v3)
 ├── background.js       # Service worker for tab management
@@ -81,7 +85,9 @@ extension/
 └── icons/
     ├── icon-default.svg   # Default gray icon
     └── icon-green.svg     # Green detection icon
-🛠️ Development
+
+## 🛠️ Development
+
 Local Development
 
 Clone this repository
@@ -103,14 +109,14 @@ Update version in manifest.json
 Create ZIP file: zip -r supabase-detector-v[version].zip extension/
 Create new GitHub release with the ZIP file
 
-🧩 Browser Compatibility
+## 🧩 Browser Compatibility
 
 ✅ Chrome 88+ (Manifest v3 support)
 ✅ Edge 88+ (Chromium-based)
 ✅ Brave (Chromium-based)
 ⚠️ Firefox - Not compatible (uses Manifest v2)
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! Here's how to get started:
 
 Fork this repository
@@ -119,24 +125,25 @@ Commit your changes (git commit -m 'Add amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
-Ideas for Contributions
+## Ideas for Contributions
 
-Add detection for other databases/services
-Improve UI/UX of the popup
-Add keyboard shortcuts
-Create automated tests
-Improve documentation
+- Add detection for other databases/services
+- Improve UI/UX of the popup
+- Add keyboard shortcuts
+- Create automated tests
+- Improve documentation
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-🎯 Built With
+
+## 🎯 Built With
 
 Chrome Extension API (Manifest v3)
 Vanilla JavaScript - No dependencies for better performance
 SVG Icons - Crisp icons at any size
 Modern Web APIs - Performance API, MutationObserver, Fetch interception
 
-📊 Detection Statistics
+## 📊 Detection Statistics
 The extension can identify Supabase usage across various implementation patterns:
 
 Modern frameworks: Next.js, React, Vue, Nuxt
@@ -144,18 +151,19 @@ Deployment platforms: Vercel, Netlify, Railway
 Authentication patterns: Built-in auth, custom implementations
 Database usage: Direct API calls, ORM integrations
 
-🆘 Support
+## 🆘 Support
 
 🐛 Found a bug? Open an issue
 💡 Have a feature request? Open an issue
 ❓ Need help? Check the installation guide
 
-🌟 Acknowledgments
+## 🌟 Acknowledgments
 
 Inspired by the need to quickly identify Supabase-powered websites
 Built for developers and teams working with Supabase
-Thanks to the Supabase community for an amazing platform
+Thanks to the Supabase community for an amazing platform!
 
 
 ⭐ Star this repo if you find it useful! It helps others discover the extension.
+
 Happy Supabase detecting! 🚀
