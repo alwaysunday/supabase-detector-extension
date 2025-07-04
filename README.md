@@ -8,37 +8,30 @@ Instantly identify websites powered by Supabase with real-time detection and det
 
 ## ✨ Features
 
-🔍 Comprehensive Detection - Scans for URLs, JavaScript patterns, API calls, and environment variables
-🎨 Visual Indicators - Icon changes from gray to green with checkmark badge
-📊 Detailed Popup - Shows exactly what Supabase features were detected and where
-⚡ Real-time Monitoring - Catches dynamically loaded content and network requests
-🔄 Auto-Updates - Monitors page changes and updates detection status
-🚀 Zero Configuration - Works immediately after installation
+- 🔍 Comprehensive Detection - Scans for URLs, JavaScript patterns, API calls, and environment variables
+- 🎨 Visual Indicators - Icon changes from gray to green with checkmark badge
+- 📊 Detailed Popup - Shows exactly what Supabase features were detected and where
+- ⚡ Real-time Monitoring - Catches dynamically loaded content and network requests
+- 🔄 Auto-Updates - Monitors page changes and updates detection status
+- 🚀 Zero Configuration - Works immediately after installation
 
 ## 🚀 Quick Install
 
-Method 1: Download Release (Recommended)
+### Download Release (Recommended)
 
-Download the latest release
-Extract the ZIP file to a folder
-Open Chrome and go to chrome://extensions/
-Enable "Developer mode" (toggle in top right)
-Click "Load unpacked" and select the extracted folder
-Done! The extension appears in your toolbar
+- Download the latest release
+- Extract the ZIP file to a folder
+- Open Chrome and go to chrome://extensions/
+- Enable "Developer mode" (toggle in top right)
+- Click "Load unpacked" and select the extracted folder
+- Done! The extension appears in your toolbar
 
-Method 2: Clone Repository
-bashgit clone https://github.com/[username]/supabase-detector-extension.git
-cd supabase-detector-extension/extension
 
-Then load the 'extension' folder in Chrome
-📋 Detailed Installation Guide
-🧪 Test the Extension
+### After installation, visit these sites to verify it's working:
 
-After installation, visit these sites to verify it's working:
-
-✅ dreambase.ai - Icon should turn green with checkmark
-✅ goodbrands.fyi - Example site using Supabase
-❌ google.com - Icon should stay gray
+- ✅ dreambase.ai - Icon should turn green with checkmark
+- ✅ goodbrands.fyi - Example site using Supabase
+- ❌ google.com - Icon should stay gray
 
 ## 🔍 What It Detects
 The extension uses multiple detection methods to identify Supabase usage:
