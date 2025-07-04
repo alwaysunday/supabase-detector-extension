@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#3ecf8e" stroke="#2eb574" stroke-width="2"/>
+  
+  <!-- Supabase "S" letter -->
+  <path d="M45 35 Q45 25, 55 25 L85 25 Q95 25, 95 35 L95 55 Q95 65, 85 65 L65 65 L65 75 L85 75 Q95 75, 95 85 L95 95 Q95 105, 85 105 L55 105 Q45 105, 45 95 L45 85 Q45 75, 55 75 L75 75 L75 65 L55 65 Q45 65, 45 55 Z" fill="white"/>
+  
+  <!-- Database symbol dots -->
+  <circle cx="35" cy="45" r="3" fill="white" opacity="0.9"/>
+  <circle cx="35" cy="55" r="3" fill="white" opacity="0.9"/>
+  <circle cx="35" cy="65" r="3" fill="white" opacity="0.9"/>
+  
+  <circle cx="93" cy="45" r="3" fill="white" opacity="0.9"/>
+  <circle cx="93" cy="55" r="3" fill="white" opacity="0.9"/>
+  <circle cx="93" cy="65" r="3" fill="white" opacity="0.9"/>
+  
+  <!-- Checkmark for detected state -->
+  <path d="M105 25 L115 25 L115 35 L125 35 L125 45 L115 45 L115 55 L105 55 L105 45 L95 45 L95 35 L105 35 Z" fill="white" opacity="0.9"/>
+  <path d="M110 30 L120 40 L110 50" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
