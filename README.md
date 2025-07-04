@@ -1,4 +1,4 @@
-# 🔧 Supabase Detector
+# 🔧 Supabase Detector - Chrome Extension
 A Chrome extension that automatically detects if a website uses Supabase and provides visual indicators.
 
 [![Dreambase.ai - Supabase detected](assets/dreambase-ai.png)](https://dreambase.ai)
