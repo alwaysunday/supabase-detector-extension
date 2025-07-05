@@ -18,7 +18,7 @@ Instantly identify websites powered by Supabase with real-time detection and det
 
 ### Download Release (Recommended)
 
-- Download the latest release
+- [Download the latest release](https://github.com/alwaysunday/supabase-detector-extension/releases/tag/v1.0.0)
 - Extract the ZIP file to a folder
 - Open Chrome and go to chrome://extensions/
 - Enable "Developer mode" (toggle in top right)
