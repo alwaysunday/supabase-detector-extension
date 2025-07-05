@@ -1,8 +1,7 @@
 # 🔧 Supabase Detector - Chrome Extension
 A Chrome extension that automatically detects if a website uses Supabase and provides visual indicators.
 
-[![Dreambase.ai - Supabase detected](assets/dreambase-ai.png)](https://dreambase.ai)
-[![Goodbrands - Supabase detected](assets/goodbrands.png)](https://goodbrands.fyi)
+[![Dreambase.ai - Supabase detected](https://imagedelivery.net/kgyWhzhmXSpIXGWwA-oX0Q/9acbd1ac-5fd6-4a09-9a2c-818ae085b700/public)](https://dreambase.ai)
 
 Instantly identify websites powered by Supabase with real-time detection and detailed analysis.
 
